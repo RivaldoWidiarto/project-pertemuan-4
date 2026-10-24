@@ -1,0 +1,79 @@
+/* Element Selector */
+body {
+    background-color: #e6f2ff; /* HEX Color */
+    font-family: Arial, sans-serif; /* Font family */
+    line-height: 1.6; /* Line height */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Group Selector */
+h1, h2 {
+    text-align: center; /* Text align */
+    color: rgb(0, 51, 102); /* RGB */
+}
+
+/* ID Selector & Box Model */
+#main-profile {
+    background-color: white;
+    width: 450px; /* Lebar tetap */
+    margin: 50px auto; /* Center via margin */
+    padding: 30px; /* Padding */
+    border: 2px solid #b3d4ff; /* Border */
+    border-radius: 15px; /* Border radius */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* RGBA */
+}
+
+/* Descendant Selector */
+#main-profile p {
+    color: #333333; /* HEX */
+    font-size: 16px; /* Font size */
+    text-align: justify;
+}
+
+h1 {
+    color: blue; /* Nama warna */
+    text-transform: uppercase; /* Text transform */
+    font-size: 24px;
+}
+
+.description {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.skills-container {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Class Selector & Display Inline-block */
+.skill-label {
+    display: inline-block; /* Display inline-block */
+    background-color: rgba(0, 51, 102, 0.1); /* RGBA */
+    color: #003366;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+    border: 1px solid #003366;
+}
+
+/* Class Selector & Display Inline-block */
+.btn-kontak {
+    display: inline-block; /* Display inline-block */
+    background-color: #003366;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase; /* Text transform */
+    font-weight: bold;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    transition: background-color 0.3s;
+}
+
+.btn-kontak:hover {
+    background-color: blue; /* Nama warna */
+}
