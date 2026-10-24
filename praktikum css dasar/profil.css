@@ -1,8 +1,8 @@
 /* Element Selector */
 body {
     background-color: #e6f2ff; /* HEX Color */
-    font-family: Arial, sans-serif; /* Font family */
-    line-height: 1.6; /* Line height */
+    font-family: Arial, sans-serif; 
+    line-height: 1.6; 
     margin: 0;
     padding: 20px;
 }
@@ -18,9 +18,9 @@ h1, h2 {
     background-color: white;
     width: 450px; /* Lebar tetap */
     margin: 50px auto; /* Center via margin */
-    padding: 30px; /* Padding */
-    border: 2px solid #b3d4ff; /* Border */
-    border-radius: 15px; /* Border radius */
+    padding: 30px;
+    border: 2px solid #b3d4ff; 
+    border-radius: 15px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* RGBA */
 }
 
